@@ -3,13 +3,13 @@
 export const Work = [
   {
     id: 1,
-    name: "Real Time Chat Translation",
+    name: "Science Inn",
     description:
-      "It is build on top of the React JS, Node with styledComponents and WebSockets ",
-    tags: ["react", "node", "materialUi", "mongoDB", "webSockets"],
+      "A website based on Space technology, Astronomy, Live ISS tracker, Daily Science News & Blogs",
+    tags: ["react", "react-router", "tailwind"],
 
-    demo: "https://aurbatao.vercel.app/",
-    github: "https://github.com/auscode/client",
+    demo: "https://scienceinn.vercel.app/",
+    github: "https://github.com/auscode/scienceinn-web",
   },
   {
     id: 2,
@@ -26,32 +26,23 @@ export const Work = [
     name: "DashBoard",
     description:
       "An awesome way to visualise and present data. Using React and componental charts",
-    tags: ["react", "chartjs"],
+    tags: ["react", "chartjs", "tailwind"],
 
     demo: "https://dashboard-d2.vercel.app/",
     github: "https://github.com/auscode/dashboard-d2",
   },
   {
     id: 4,
-    name: "Video Streaming Player",
-    description: "Video Streaming Web Application with Admin Panel with age ",
-    tags: ["Django", "CSS", "HTML", "JS", "SQL"],
+    name: "Real Time Chat Translation",
+    description:
+      "It is build on top of the React JS, Node with styledComponents and WebSockets ",
+    tags: ["react", "node", "materialUi", "mongoDB", "webSockets"],
 
-    demo: "https://github.com/auscode/capstone",
-    github: "https://github.com/auscode/capstone",
+    demo: "https://aurbatao.vercel.app/",
+    github: "https://github.com/auscode/client",
   },
   {
     id: 5,
-    name: "Science Inn",
-    description:
-      "A website based on Space technology, Astronomy, Live ISS tracker, Daily Science News & Blogs",
-    tags: ["react", "react-router", "tailwind"],
-
-    demo: "https://scienceinn.vercel.app/",
-    github: "https://github.com/auscode/scienceinn-web",
-  },
-  {
-    id: 6,
     name: "Responsive Music Portfolio",
     description:
       "A music portfolio that shows responsive layout and performance of 3D Cards and Images",
@@ -59,6 +50,15 @@ export const Work = [
 
     demo: "https://musixnextjs.vercel.app/",
     github: "https://github.com/auscode/musixnextjs",
+  },
+  {
+    id: 6,
+    name: "Video Streaming Player",
+    description: "Video Streaming Web Application with Admin Panel with age ",
+    tags: ["Django", "CSS", "HTML", "JS", "SQL"],
+
+    demo: "https://github.com/auscode/capstone",
+    github: "https://github.com/auscode/capstone",
   },
   {
     id: 7,
