@@ -120,8 +120,7 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, CSS, JS, React, Django, Node, MongoDb, SQL, Flask, NextJs,
-              React Native, Tailwind etc.
+              C++, Python, React, Django, Node, MongoDb, SQL, Flask, Angular, NextJs, React Native, Linux, etc.
             </p>
           </Description>
           <Description>
