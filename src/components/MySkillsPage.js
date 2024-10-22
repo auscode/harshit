@@ -120,13 +120,13 @@ const MySkillsPage = () => {
           <Description>
             <strong>Skills</strong>
             <p>
-              Html, CSS, JS, React, Django, Node, MongoDb, SQL, Redux, Sass,
-              Bootstrap, Tailwind etc.
+              Html, CSS, JS, React, Angular, NextJs, Django, Flask, Scrapping, Python, C++, Node, MongoDb, SQL, Redux, Sass,
+              React Native & Expo, Linux, Bash, Bootstrap, ShadCn, Tailwind etc.
             </p>
           </Description>
           <Description>
             <strong>Tools</strong>
-            <p>VScode, Github, Postman, StackBlits, Codepen, Docker, etc.</p>
+            <p>VScode, Github, Postman, DBeaver, MongoDB Compass, StackBlits, Codepen, Docker, etc.</p>
           </Description>
         </Main>
 
