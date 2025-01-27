@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 import LogoComponent from "../subComponents/LogoComponent";
@@ -133,6 +133,21 @@ const Main = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
+
+  useEffect(() => {
+    // Automatically download the resume on page load
+    const downloadResume = () => {
+      const link = document.createElement("a");
+      link.href = "/harshit_mishra_resume.pdf"; // Replace with the actual path to your resume
+      link.download = "harshit_mishra_resume.pdf"; // The name for the downloaded file
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
+
+    downloadResume();
+    alert("My Resume is getting Downloaded");
+  }, []);
 
   return (
     <MainContainer>
