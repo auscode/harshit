@@ -138,8 +138,8 @@ const Main = () => {
     // Automatically download the resume on page load
     const downloadResume = () => {
       const link = document.createElement("a");
-      link.href = "/harshit_mishra_resume.pdf"; // Replace with the actual path to your resume
-      link.download = "harshit_mishra_resume.pdf"; // The name for the downloaded file
+      link.href = '/resume.pdf'; // Replace with the actual path to your resume
+      link.download = "harshit_mishra.pdf"; // The name for the downloaded file
       document.body.appendChild(link);
       link.click();
       document.body.removeChild(link);
